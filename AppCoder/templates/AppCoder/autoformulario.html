@@ -1,29 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% extends "AppCoder/padre.html" %}
 
-<form action = "/autosformulario/" method = "POST">{% csrf_token %}
-    <p> Marca: <input type="text" name ="marca"></p>
+{% load static %}
 
-    <p> Modelo: <input type="number" name="modelo"></p>
+{% block contenido_que_cambia %}
+<form action = "/AppCoder/autoformulario" method = "POST">{% csrf_token %}
 
-    <p> Tipo: <input type="text" name="tipo"></p>
+    <table>
 
-    <p> Entregado: <input type="checkbox" name="entregado"></p>
+        {{ mi_formulario.as_table }}
+
+    </table>
 
     <input type="submit" value = "Enviar">
 
 
 </form>
 
-
-
-
-</body>
-</html>
+{% endblock %}

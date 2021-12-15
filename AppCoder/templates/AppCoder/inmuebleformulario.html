@@ -4,7 +4,7 @@
 
 {% block contenido_que_cambia %}
 
-<form action = "/AppCoder/facultadformulario" method = "POST">{% csrf_token %}
+<form action = "/AppCoder/inmuebleformulario" method = "POST">{% csrf_token %}
     <table>
 
         {{ mi_formulario.as_table }}
@@ -16,9 +16,3 @@
 </form>
 
 {% endblock %}
-
-
-
-
-</body>
-</html>
