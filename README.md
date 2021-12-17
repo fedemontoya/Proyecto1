@@ -28,7 +28,7 @@ Pagina Web con 3 clases:
  
  **_INSTALACIÓN_**
  ***
- git clone https://github.com/cancharimmd/ProyectoFinal_Grupo4.git
+ git clone https://github.com/fedemontoya/Proyecto1.git
  
   **_RUTAS PRINCIPALES_**
   *** 
@@ -39,7 +39,7 @@ Pagina Web con 3 clases:
       3.1.- [FORMULARIO INMUEBLES] /AppCoder/inmuebleFormulario
     4.- [FACULTAD] /AppCoder/facultad
       4.1.- [FORMULARIO FACULTAD] /AppCoder/facultadFormulario
-    5.- [ADMIN] /admin (Usuario: diego; Password: 123456)
+    5.- [ADMIN] /admin (Usuario: fede; Password: 2142.Fede)
    
   **_PREVIEW_**
   *** 
